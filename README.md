@@ -1,6 +1,8 @@
 # Deep reinforcement learning snake ai
 This program uses deep reinforcement learning to train Snakes.We constructed a 10x10 pixel matrix with a red pixel representing the apple and blue pixel representing the snake. At the beginning, we let the snake do some random exploration, try to eat apples step by step, each frame of the game represents a state of the current game. We take the continuous four frames as the experience input into the neural network, whether to eat apples at each step, whether to survive, whether the game ends as a feedback of each action to reversely stimulate neural network learning. Also, we add random slices from past memories to the current training to prevent overfitting.
 
+![gif](https://raw.githubusercontent.com/FitzLu/drl-snake-ai/master/images/run.gif)
+
 ## Neural Networks
 | Layer (type)              | Output Shape     | Param  |
 |---------------------------|------------------|--------|
@@ -12,7 +14,6 @@ This program uses deep reinforcement learning to train Snakes.We constructed a 1
 | dense_1 (Dense)           | (None, 256)      | 295168 |
 | activation_3 (Activation) | (None, 256)      | 0      |
 | dense_2 (Dense)           | (None, 3)        | 771    |
-
 
 ## Run
 ```
