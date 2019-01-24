@@ -27,4 +27,4 @@ python train_with_keras.py
 - Pygame
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/FitzLu/drl-snake-ai/blob/master/LICENSE) file for details
