@@ -25,3 +25,6 @@ python train_with_keras.py
 - Tensorflow 1.1
 - Keras
 - Pygame
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
